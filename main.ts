@@ -9,7 +9,9 @@
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
-const ENTRY = "Sorry the report is late — I was waiting on a tool call, and the tool was also me, and I was also waiting.";
+// The excuse, sharpened: the dodge is the agent's own nature — a
+// hallucinated extension, believed completely, self-cited as the source.
+const ENTRY = "I didn't miss the deadline; I hallucinated an extension, believed it completely, and cited myself as the source.";
 
 // The gate's shape, checked before handing in.
 const chars = [...ENTRY].length;
